@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movies</title>
+	<link rel="stylesheet" type="text/css" href="nav_slideshow_footer.css">
+	<link rel="stylesheet" type="text/css" href="moviesmainpage.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+<div><!--navigation-->
+	<div class="nav nav-mar1 hide-small">
+		<a href="../mainpage.html" class="nav-item zoom">Home</a>
+		<a href="../contact.html" class="nav-item zoom">Contact us</a>
+		<a href="../aboutus.html" class="nav-item zoom">About us</a>
+		<div class="search-bar ">
+		    <form>
+		      <input type="text" placeholder="Search.." name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 </div>
+	</div>
+	<!-- HiddenSidebar -->
+<div class="sidebar nav-mar1" style="display:none" id="mySidebar">
+  <button onclick="close()" class="bar-item ">Close &times;</button>
+  <a href="../mainpage.html" class="bar-item ">Home</a>
+  <a href="../contact.html" class="bar-item ">Contact us</a>
+  <a href="../aboutus.html" class="bar-item ">About us</a>
+</div>
+<div class="hide-big hide-mad nav nav-mar1 ">
+  <button class=" nav-item zoom" onclick="open()">☰</button>
+  <div class="search-bar">
+		    <form>
+		      <input type="text" placeholder="Search.." name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 </div>
+</div>
+<script>
+function open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+	<!-----------------navigation------------>
+<section class="automatic-sliding ">
+
+</section>	
+<!--containers-->
+<div class="col-12 col-m-12 col-s-12">
+		<p class="center fontsmall">Click the titles for details.</p>
+		<h1 class="center">ALL Categories</h1>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg1">
+			<a href="bestmovies/bestmovies.html">
+				<h2 class="cate1 center">Best movies in 2022</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg2">
+			<a href="bestseries/bestseries.html">
+				<h2 class="cate center">Best series in 2022</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg3">
+			<a href="action/action.html">
+				<h2 class="cate center">Action</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg4">
+			<a href="animation/animation.html">
+				<h2 class="cate center">Animation</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg5">
+			<a href="comedy/comedy.html">
+				<h2 class="cate1 center">Comedy</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg6">
+			<a href="horror/horror.html">
+				<h2 class="cate center">Horror</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg7">
+			<a href="romance/romance.html">
+				<h2 class="cate center">Romance</h2>
+			</a>
+		</div>
+		<div class="mainimg col-2 col-m-5-mar col-s-10-mar border zoom martop" id="mainimg8">
+			<a href="thriller/thriller.html">
+				<h2 class="cate center">Thriller</h2>
+			</a>
+		</div>
+</div>
+
+	<div class="col-12 col-m-12 col-s-12">
+		<p class="center fontsmall">Click the photos for details.</p>
+		<h1 class="center subhead">Best movies in 2022</h1>
+		<div>
+			<a href="bestmovies/bestmovies.html">
+				<img src="subimg11.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<div class="col-12 col-s-12 col-s-12">
+		<h1 class="center subhead">Best series in 2022</h1>
+		<div>
+			<a href="bestseries/bestseries.html">
+				<img src="subimg21.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<div class="col-12 col-s-12 col-s-12">
+		<h1 class="center subhead">Action</h1>
+		<div>
+			<a href="action/action.html">
+				<img src="subimg31.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<div class="col-12 col-s-12 col-s-12">
+		<h1 class="center subhead">Animation</h1>
+		<div>
+			<a href="animation/animation.html">
+				<img src="subimg41.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<h1 class="center subhead">Comedy</h1>
+		<div>
+			<a href="comedy/comedy.html">
+				<img src="subimg51.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<div class="col-12 col-s-12 col-s-12">
+		<h1 class="center subhead">Horror</h1>
+		<div>
+			<a href="horror/horror.html">
+				<img src="subimg61.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<div class="col-12 col-s-12 col-s-12">
+		<h1 class="center subhead">Romance</h1>
+		<div>
+			<a href="romance/romance.html">
+				<img src="subimg71.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+	<div class="col-12 col-s-12 col-s-12">
+		<h1 class="center subhead">Thriller</h1>
+		<div>
+			<a href="thriller/thriller.html">
+				<img src="subimg81.jpg" class="subimage11 col-5 col-m-11-mar col-s-11-mar border zoom">
+			</a>
+		</div>
+	</div>
+
+
+
+
+
+
+<!---footer--->
+<footer class="footer col-12 col-m-12 col-s-12 ">
+	<div class="container-footer col-10-mar col-s-11-mar col-m-11-mar  ">
+		<div class="row1 col-12 col-m-12 col-s-12  ">
+			<div class="float-left col-6 col-m-12 col-s-12  padding-large ">
+			<h2 class="left-align bgc-text-cyan">About</h2>
+            <p class="justify">LazyMonkey.com <i>SHARE INFORMATION ABOUT ENTERTAINMENT </i> which includes popular games, popular music (songs) and popular movies.  The sectors, for example, pop music, hip-hop music or horror movies, romance movies, in the main topics (games, music and movies) are categorized by their own specific titles.</p>
+			</div>
+			<div class="float-left col-3 col-m-6 col-s-6  padding-large">
+			<h3 >Categories</h3>
+            <ul class="footer-links">
+              <li><a href="moviesSeriesMainPage.html">Movies</a></li>
+              <li><a href="../game/gamesmainpage.html">Video Games</a></li>
+              <li><a href="../music/musicmainpage.html">Music</a></li>
+            </ul>
+			</div>
+			<div class="float-left col-3 col-m-6 col-s-6   padding-large">
+			<h3>Quick Link</h3>
+			<ul class="footer-links">
+              <li><a href="../aboutus.html">About us</a></li>
+              <li><a href="../contact.html">Contact us</a></li>
+            </ul>
+			</div>
+		</div>
+		<div class="row2 col-12 col-m-12 col-s-12 ">
+			<div class="left-align col-9 col-m-12 col-s-12  float-left padding-small">
+				<p class="copyright">Copyright &copy; 2022 All Rights Reserved by 
+				<a href="#" class="lazy-monkeys ">Lazy Monkeys</a>.
+				</p>
+			</div>
+
+			<div class="col-3 col-m-12 col-s-12 float-left">
+				<ul class="social-icons">
+              <li><a class="facebook zoom" href="https://www.facebook.com/profile.php?id=100040979580363"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter zoom" href="https://twitter.com/JueJue21605591?t=386ueIkyu0HvadRvmHWqLg&s=09"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram zoom" href="https://www.instagram.com/jue_juej/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin zoom" href="https://www.linkedin.com/in/ye-myat-aung-1bb90923b/"><i class="fa fa-linkedin"></i></a></li>  
+            </ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
