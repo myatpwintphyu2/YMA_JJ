@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="nav_slideshow_footer.css">
+	<link rel="stylesheet" type="text/css" href="mainpage.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+	<div><!--navigation-->
+	<div class="nav hide-small nav-mar3  ">
+		<a href="mainpage.html" class="nav-item zoom">Home</a>
+		<a href="contact.html" class="nav-item zoom">Contact us</a>
+		<a href="aboutus.html" class="nav-item zoom">About us</a>
+		<div class="search-bar ">
+		    <form>
+		      <input type="text" placeholder="Search.." name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 </div>
+	</div>
+	<!-- HiddenSidebar -->
+<div class="sidebar nav-mar3" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="bar-item ">Close &times;</button>
+  <a href="mainpage.html" class="bar-item ">Home</a>
+  <a href="contact.html" class="bar-item ">Contact us</a>
+  <a href="aboutus.html" class="bar-item ">About us</a>
+</div>
+<div class="hide-big hide-mad nav nav-mar3 ">
+  <button class=" nav-item zoom" onclick="w3_open()">☰</button>
+  <div class="search-bar">
+		    <form>
+		      <input type="text" placeholder="Search.." name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 </div>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<div class="col-s-11-mar col-m-9-mar col-5-mar wrapper boxshadow">
+	<div class="">
+		<div class="col-s-12 col-m-8 col-8 floatleft input-space contact-form">
+			<input type="text" placeholder="Name" class="input">
+			<input type="text" placeholder="Email Adress" class="input" >
+			<input type="text" placeholder="Phone" class="input" >
+			<input type="text" placeholder="Subject" class="input" >
+		</div>
+		<div class="col-s-12 col-m-4 col-4 float-left msg">
+			<textarea placeholder="Message"></textarea>
+			<button class="zoom">Send</button>
+		</div>
+	</div>
+</div>
+</body>
+</html>

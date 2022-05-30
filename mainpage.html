@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Entertain U</title>
+	<link rel="stylesheet" type="text/css" href="nav_slideshow_footer.css">
+	<link rel="stylesheet" type="text/css" href="mainpage.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+<div><!--navigation-->
+	<div class="nav nav-mar1 hide-small">
+		<a href="mainpage.html" class="nav-item zoom">Home</a>
+		<a href="contact.html" class="nav-item zoom">Contact us</a>
+		<a href="aboutus.html" class="nav-item zoom">About us</a>
+		<div class="search-bar">
+		    <form>
+		      <input type="text" placeholder="Search.." name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 </div>
+	</div>
+	<!-- HiddenSidebar -->
+<div class="sidebar nav-mar1" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="bar-item ">Close &times;</button>
+  <a href="home.html" class="bar-item ">Home</a>
+  <a href="contact.html" class="bar-item ">Contact us</a>
+  <a href="aboutus.html" class="bar-item ">About us</a>
+</div>
+<div class="hide-big hide-mad nav nav-mar1">
+  <button class=" nav-item zoom" onclick="w3_open()">☰</button>
+  <div class="search-bar">
+		    <form>
+		      <input type="text" placeholder="Search.." name="search">
+		      <button type="submit"><i class="fa fa-search"></i></button>
+		    </form>
+		 </div>
+</div>
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+	<!-----------------Slideshow------------>
+<section class="automatic-sliding ">
+<div id="slide">
+    <figure class="hide-mad2 ">
+        <img src="img9.jpg" alt="Image">
+        <img src="img16.jpg" alt="Image">
+        <img src="img15.jpg" alt="Image">
+        <img src="img12.jpg" alt="Image">
+        <img src="img13.jpg" alt="Image">
+    </figure>
+        <figure  class="small-slideshow">
+        <img src="img17.jpg" alt="Image">
+        <img src="img17.jpg" alt="Image">
+        <img src="img17.jpg" alt="Image">
+        <img src="img17.jpg" alt="Image">
+        <img src="img17.jpg" alt="Image">
+    </figure>
+</div>
+</section>	
+<!--containers-->
+<h2 class="center bgc-text-grey margin-topxx fontlarge" style="letter-spacing: 4px;">Latest Update</h2>
+<div class="col-11-mar col-m-12-mar col-s-12-mar float-left padding-large">
+	<div class="col-s-12 col-m-6 col-4 float-left boxshadow zoom bgc-lime2 padding-large">
+		<div>
+			<a href="game/gamesmainpage.html">
+				<img class="img" src="img1.jpg">
+			</a>
+			<div class="toptext padding-small">
+				<a href="game/gamesmainpage.html">
+					<h2> Top 5 popular games</h2>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-s-12 col-m-6 col-4 float-left boxshadow zoom bgc-lime2 padding-large">
+		<div>
+			<a href="movies/moviesSeriesMainPage.html">
+				<img class="img" src="img2.jpg">
+			</a>
+			<div class="toptext padding-small">
+				<a href="movies/moviesSeriesMainPage.html">
+					<h2> popular movies</h2>
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="col-m-4 col-4 float-left boxshadow zoom bgc-lime2 hide-mad2 hide-small padding-large">
+		<div>
+			<a href="movies/action/action.html">
+				<img class="img" src="img3.jpg">
+			</a>
+			<div class="toptext padding-small">
+				<a href="movies/action/action.html">
+					<h2> Top 10 popular action movies</h2>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</div>
+<div class="col-s-11-mar col-m-10-mar col-7-mar zoom bgc-lime2 boxshadow3 padding-median">
+	<div>
+			<a href="music/musicmainpage.html">
+				<img class="img" src="img4.jpg">
+			</a>
+			<div class="toptext padding-small">
+				<a href="music/musicmainpage.html">
+					<h2> popular songs</h2>
+				</a>
+			</div>
+	</div>
+</div>
+
+
+
+
+
+
+<!---footer--->
+<footer class="footer col-12 col-m-12 col-s-12 ">
+	<div class="container-footer col-10-mar col-s-11-mar col-m-11-mar  ">
+		<div class="row1 col-12 col-m-12 col-s-12  ">
+			<div class="float-left col-6 col-m-12 col-s-12  padding-large ">
+			<h2 class="left-align bgc-text-cyan">About</h2>
+            <p class="justify">LazyMonkey.com <i>SHARE INFORMATION ABOUT ENTERTAINMENT </i> which includes popular games, popular music (songs) and popular movies.  The sectors, for example, pop music, hip-hop music or horror movies, romance movies, in the main topics (games, music and movies) are categorized by their own specific titles.</p>
+			</div>
+			<div class="float-left col-3 col-m-6 col-s-6  padding-large">
+			<h3 >Categories</h3>
+            <ul class="footer-links">
+              <li><a href="movies/moviesSeriesMainPage.html">Movies</a></li>
+              <li><a href="game/gamesmainpage.html">Video Games</a></li>
+              <li><a href="music/musicmainpage.html">Music</a></li>
+            </ul>
+			</div>
+			<div class="float-left col-3 col-m-6 col-s-6   padding-large">
+			<h3>Quick Link</h3>
+			<ul class="footer-links">
+              <li><a href="aboutus.html">About us</a></li>
+              <li><a href="contact.html">Contact us</a></li>
+            </ul>
+			</div>
+		</div>
+		<div class="row2 col-12 col-m-12 col-s-12 ">
+			<div class="left-align col-9 col-m-12 col-s-12  float-left padding-small">
+				<p class="copyright">Copyright &copy; 2022 All Rights Reserved by 
+				<a href="#" class="lazy-monkeys ">Lazy Monkeys</a>.
+				</p>
+			</div>
+
+			<div class="col-3 col-m-12 col-s-12 float-left">
+				<ul class="social-icons">
+              <li><a class="facebook zoom" href="https://www.facebook.com/profile.php?id=100040979580363"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter zoom" href="https://twitter.com/JueJue21605591?t=386ueIkyu0HvadRvmHWqLg&s=09"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="instagram zoom" href="https://www.instagram.com/jue_juej/"><i class="fa fa-instagram"></i></a></li>
+              <li><a class="linkedin zoom" href="https://www.linkedin.com/in/ye-myat-aung-1bb90923b/"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+			</div>
+		</div>
+	</div>
+</footer>
+</body>
+</html>
